@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(40, 178, 190);
+}
+.menu-items,
+.menu-end {
+    list-style: none;
+    display: flex;
+}
+.menu-end li {
+    padding: 20px 12px;
+}
+.menu-btn {
+    color: rgba(255, 255, 255, 0.578);
+    text-decoration: none;
+    display: block;
+    padding: 20px 12px;  
+}
+.menu-btn:hover {
+    color: white;
+}
