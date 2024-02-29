@@ -1,52 +1,87 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 nav {
-    display: flex;
-    justify-content: space-between;
-    background-color: rgb(40, 178, 190);
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(38, 166, 177);
 }
 .menu-items,
 .menu-end {
-    list-style: none;
-    display: flex;
+  list-style: none;
+  display: flex;
 }
 .menu-end li {
-    padding: 20px 12px;
+  padding: 20px 12px;
 }
 .menu-btn {
-    color: rgba(255, 255, 255, 0.578);
-    text-decoration: none;
-    display: block;
-    padding: 20px 12px;  
+  color: rgba(255, 255, 255, 0.578);
+  text-decoration: none;
+  display: block;
+  padding: 20px 12px;
 }
 .menu-btn:hover {
-    color: white;
+  color: white;
 }
 main h1 {
-    text-align: center;
-    font-weight: normal;
-    margin-top: 30px;
+  text-align: center;
+  font-weight: normal;
+  margin-top: 30px;
 }
 .lesson {
-    display: flex;
-    list-style: none;
-    margin: 20px 30px;
-    
+  display: flex;
+  list-style: none;
+  margin: 20px 30px;
 }
 .lesson li {
-    padding: 8px 12px;
-    border-bottom: 1px solid rgb(216, 216, 216);
-    color: rgb(35, 157, 168);
+  padding: 8px 12px;
+  border-bottom: 1px solid rgb(216, 216, 216);
+  color: rgb(35, 157, 168);
 }
 .lesson li:nth-child(1),
 .lesson li:nth-child(7) {
-    border: 1px solid rgb(216, 216, 216);
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom: none;
-    color: rgba(0, 0, 0, 0.8);
+  border: 1px solid rgb(216, 216, 216);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom: none;
+  color: rgba(0, 0, 0, 0.8);
+}
+.info-lessen {
+  display: flex;
+  margin: 20px 30px;
+}
+.info-lessen label {
+  color: rgb(210, 197, 197);
+  font-size: 0.8rem;
+  display: block;
+  margin-bottom: 10px;
+  padding: 0 12px;
+}
+.info-lessen input {
+  outline: none;
+  margin-right: 20px;
+  font-size: 1.1rem;
+}
+.subject {
+  border: none;
+  padding: 10px 12px;
+}
+.topic {
+  padding: 10px 12px;
+  border: 1px solid rgb(216, 216, 216);
+}
+.btn-add-hw {
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 11px 12px;
+  background-color: rgb(38, 166, 177);
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+.btn-add-hw:hover {
+  background-color: rgb(30, 135, 145);
 }
