@@ -85,3 +85,53 @@ main h1 {
 .btn-add-hw:hover {
   background-color: rgb(30, 135, 145);
 }
+.table-student {
+  border-collapse: collapse;
+}
+.table-student th {
+  background-color: rgb(55, 209, 223);
+  color: white;
+  padding: 10px;
+  font-weight: normal;
+  text-align: left;
+}
+.table-student tr td {
+  padding: 10px;
+  text-align: center;
+}
+.visit {
+  appearance: none;
+  outline: none;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 0.5rem;
+  position: relative;
+}
+.visit:checked::after {
+    content: "";
+    position: absolute;
+    top: 2px;
+    bottom: 2px;
+    left: 2px;
+    right: 2px;
+    border-radius: 100%;
+    
+  }
+.green {
+    border: 1px solid #378a3c;
+}
+.green:checked::after {
+    background-color: #378a3c;
+}
+.orange {
+    border: 1px solid #ed8b03;
+}
+.orange:checked::after {
+    background-color: #ed8b03;
+}
+.red:checked::after {
+    background-color: #d81717;
+}
+.red {
+    border: 1px solid #d81717;
+}
